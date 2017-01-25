@@ -7,7 +7,7 @@
 
 <h3>Enter your bank account balance: </h3>
 <%= form_tag "bank_acc" do %>
-<%= text_field_tag :amount %>
+<%= number_field_tag :amount %>
 <h3>Pick a country to see your balance there: </h3>
 <%= text_field_tag :currency_code %>
 
